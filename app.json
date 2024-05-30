@@ -1,0 +1,50 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 29943,
+    "appName": "Sleep Reminder",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Get ready to sleep on time!"
+  },
+  "permissions": ["data:os.device.info", "device:os.local_storage"],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "2.0.0",
+      "target": "2.0.0",
+      "minVersion": "2.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "bip": {
+      "module": {
+        "page": {
+          "pages": ["page/bip/home/index.page"]
+        }
+      },
+      "platforms": [
+        {
+          "name": "bip5",
+          "deviceSource": 8454400
+        },
+        {
+          "name": "bip5-w",
+          "deviceSource": 8454401
+        }
+      ],
+      "designWidth": 320
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Sleep Reminder"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
