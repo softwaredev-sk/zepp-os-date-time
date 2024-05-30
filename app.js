@@ -8,3 +8,5 @@ App({
     console.log('app on destroy invoke');
   },
 });
+
+const app = getApp();
